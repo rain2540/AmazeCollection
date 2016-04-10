@@ -14,6 +14,7 @@
 		B77213B51CBA0F020040AD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77213B41CBA0F020040AD04 /* Assets.xcassets */; };
 		B77213B81CBA0F020040AD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77213B61CBA0F020040AD04 /* LaunchScreen.storyboard */; };
 		B77213C51CBA1DC70040AD04 /* UIColor+RGUICategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B77213C41CBA1DC70040AD04 /* UIColor+RGUICategory.m */; };
+		B77213C81CBA42170040AD04 /* UINavigationBar+RGUICategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B77213C71CBA42170040AD04 /* UINavigationBar+RGUICategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		B77213C11CBA10470040AD04 /* RGUIConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGUIConstant.h; sourceTree = "<group>"; };
 		B77213C31CBA1DC70040AD04 /* UIColor+RGUICategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGUICategory.h"; sourceTree = "<group>"; };
 		B77213C41CBA1DC70040AD04 /* UIColor+RGUICategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGUICategory.m"; sourceTree = "<group>"; };
+		B77213C61CBA42170040AD04 /* UINavigationBar+RGUICategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+RGUICategory.h"; sourceTree = "<group>"; };
+		B77213C71CBA42170040AD04 /* UINavigationBar+RGUICategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+RGUICategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				B77213C11CBA10470040AD04 /* RGUIConstant.h */,
 				B77213C31CBA1DC70040AD04 /* UIColor+RGUICategory.h */,
 				B77213C41CBA1DC70040AD04 /* UIColor+RGUICategory.m */,
+				B77213C61CBA42170040AD04 /* UINavigationBar+RGUICategory.h */,
+				B77213C71CBA42170040AD04 /* UINavigationBar+RGUICategory.m */,
 			);
 			path = RGUICategory;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			files = (
 				B77213B01CBA0F020040AD04 /* ViewController.m in Sources */,
 				B77213AD1CBA0F020040AD04 /* AppDelegate.m in Sources */,
+				B77213C81CBA42170040AD04 /* UINavigationBar+RGUICategory.m in Sources */,
 				B77213C51CBA1DC70040AD04 /* UIColor+RGUICategory.m in Sources */,
 				B77213AA1CBA0F020040AD04 /* main.m in Sources */,
 			);
