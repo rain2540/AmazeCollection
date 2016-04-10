@@ -15,6 +15,7 @@
 		B77213B81CBA0F020040AD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77213B61CBA0F020040AD04 /* LaunchScreen.storyboard */; };
 		B77213C51CBA1DC70040AD04 /* UIColor+RGUICategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B77213C41CBA1DC70040AD04 /* UIColor+RGUICategory.m */; };
 		B77213C81CBA42170040AD04 /* UINavigationBar+RGUICategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B77213C71CBA42170040AD04 /* UINavigationBar+RGUICategory.m */; };
+		B77213CB1CBA448F0040AD04 /* UIView+RGUICategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B77213CA1CBA448F0040AD04 /* UIView+RGUICategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		B77213C41CBA1DC70040AD04 /* UIColor+RGUICategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGUICategory.m"; sourceTree = "<group>"; };
 		B77213C61CBA42170040AD04 /* UINavigationBar+RGUICategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+RGUICategory.h"; sourceTree = "<group>"; };
 		B77213C71CBA42170040AD04 /* UINavigationBar+RGUICategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+RGUICategory.m"; sourceTree = "<group>"; };
+		B77213C91CBA448F0040AD04 /* UIView+RGUICategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RGUICategory.h"; sourceTree = "<group>"; };
+		B77213CA1CBA448F0040AD04 /* UIView+RGUICategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RGUICategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				B77213C41CBA1DC70040AD04 /* UIColor+RGUICategory.m */,
 				B77213C61CBA42170040AD04 /* UINavigationBar+RGUICategory.h */,
 				B77213C71CBA42170040AD04 /* UINavigationBar+RGUICategory.m */,
+				B77213C91CBA448F0040AD04 /* UIView+RGUICategory.h */,
+				B77213CA1CBA448F0040AD04 /* UIView+RGUICategory.m */,
 			);
 			path = RGUICategory;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 				B77213B01CBA0F020040AD04 /* ViewController.m in Sources */,
 				B77213AD1CBA0F020040AD04 /* AppDelegate.m in Sources */,
 				B77213C81CBA42170040AD04 /* UINavigationBar+RGUICategory.m in Sources */,
+				B77213CB1CBA448F0040AD04 /* UIView+RGUICategory.m in Sources */,
 				B77213C51CBA1DC70040AD04 /* UIColor+RGUICategory.m in Sources */,
 				B77213AA1CBA0F020040AD04 /* main.m in Sources */,
 			);
