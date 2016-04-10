@@ -12,5 +12,6 @@
 #import "RGUIConstant.h"
 #import "UIColor+RGUICategory.h"
 #import "UINavigationBar+RGUICategory.h"
+#import "UIView+RGUICategory.h"
 
 #endif /* RGUICategory_h */
