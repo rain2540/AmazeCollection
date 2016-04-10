@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RGUICategory/RGUICategory.h"
 
 @interface ViewController ()
 

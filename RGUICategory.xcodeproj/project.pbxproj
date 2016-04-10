@@ -13,6 +13,7 @@
 		B77213B31CBA0F020040AD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77213B11CBA0F020040AD04 /* Main.storyboard */; };
 		B77213B51CBA0F020040AD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77213B41CBA0F020040AD04 /* Assets.xcassets */; };
 		B77213B81CBA0F020040AD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77213B61CBA0F020040AD04 /* LaunchScreen.storyboard */; };
+		B77213C51CBA1DC70040AD04 /* UIColor+RGUICategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B77213C41CBA1DC70040AD04 /* UIColor+RGUICategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,10 @@
 		B77213B41CBA0F020040AD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B77213B71CBA0F020040AD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B77213B91CBA0F020040AD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77213C01CBA10280040AD04 /* RGUICategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGUICategory.h; sourceTree = "<group>"; };
+		B77213C11CBA10470040AD04 /* RGUIConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGUIConstant.h; sourceTree = "<group>"; };
+		B77213C31CBA1DC70040AD04 /* UIColor+RGUICategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGUICategory.h"; sourceTree = "<group>"; };
+		B77213C41CBA1DC70040AD04 /* UIColor+RGUICategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGUICategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		B77213A71CBA0F020040AD04 /* RGUICategory */ = {
 			isa = PBXGroup;
 			children = (
+				B77213BF1CBA0FF50040AD04 /* RGUICategory */,
 				B77213AB1CBA0F020040AD04 /* AppDelegate.h */,
 				B77213AC1CBA0F020040AD04 /* AppDelegate.m */,
 				B77213AE1CBA0F020040AD04 /* ViewController.h */,
@@ -77,6 +83,17 @@
 				B77213A91CBA0F020040AD04 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B77213BF1CBA0FF50040AD04 /* RGUICategory */ = {
+			isa = PBXGroup;
+			children = (
+				B77213C01CBA10280040AD04 /* RGUICategory.h */,
+				B77213C11CBA10470040AD04 /* RGUIConstant.h */,
+				B77213C31CBA1DC70040AD04 /* UIColor+RGUICategory.h */,
+				B77213C41CBA1DC70040AD04 /* UIColor+RGUICategory.m */,
+			);
+			path = RGUICategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +168,7 @@
 			files = (
 				B77213B01CBA0F020040AD04 /* ViewController.m in Sources */,
 				B77213AD1CBA0F020040AD04 /* AppDelegate.m in Sources */,
+				B77213C51CBA1DC70040AD04 /* UIColor+RGUICategory.m in Sources */,
 				B77213AA1CBA0F020040AD04 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = RGUICategory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smartech.RGUICategory;
@@ -274,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = RGUICategory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smartech.RGUICategory;
@@ -300,6 +320,7 @@
 				B77213BE1CBA0F020040AD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
