@@ -13,7 +13,7 @@ typedef enum {
     Vertical
 } RGLineDirection;
 
-@interface UIView (RGUICategory)
+@interface UIView (DrawTools)
 
 /**
  *  为视图添加边线
@@ -42,5 +42,28 @@ typedef enum {
                                 width:(CGFloat)width
                                 color:(UIColor *)color
                             direction:(RGLineDirection)direction;
+
+@end
+
+@interface UIView (Rect)
+
+- (CGSize)rg_size;
+
+- (CGFloat)rg_width;
+- (void)rg_setWidth:(CGFloat)width;
+
+- (CGFloat)rg_height;
+- (void)rg_setHeight:(CGFloat)height;
+
+- (CGFloat)rg_x;
+- (void)rg_setX:(CGFloat)x;
+
+- (CGFloat)rg_y;
+- (void)rg_setY:(CGFloat)y;
+
+- (CGFloat)rg_maxX;
+- (CGFloat)rg_maxY;
+- (CGFloat)rg_midX;
+- (CGFloat)rg_midY;
 
 @end
