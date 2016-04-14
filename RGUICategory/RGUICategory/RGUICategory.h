@@ -13,5 +13,6 @@
 #import "UIColor+RGUICategory.h"
 #import "UINavigationBar+RGUICategory.h"
 #import "UIView+RGUICategory.h"
+#import "MainScreen.h"
 
 #endif /* RGUICategory_h */
