@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B76A55B91CD1E26600DB016B /* UITabBar+RGUICategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B76A55B81CD1E26600DB016B /* UITabBar+RGUICategory.m */; };
 		B77213AA1CBA0F020040AD04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B77213A91CBA0F020040AD04 /* main.m */; };
 		B77213AD1CBA0F020040AD04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B77213AC1CBA0F020040AD04 /* AppDelegate.m */; };
 		B77213B01CBA0F020040AD04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77213AF1CBA0F020040AD04 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B76A55B71CD1E26600DB016B /* UITabBar+RGUICategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+RGUICategory.h"; sourceTree = "<group>"; };
+		B76A55B81CD1E26600DB016B /* UITabBar+RGUICategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+RGUICategory.m"; sourceTree = "<group>"; };
 		B77213A51CBA0F020040AD04 /* RGUICategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGUICategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77213A91CBA0F020040AD04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B77213AB1CBA0F020040AD04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				B77213C41CBA1DC70040AD04 /* UIColor+RGUICategory.m */,
 				B77213C61CBA42170040AD04 /* UINavigationBar+RGUICategory.h */,
 				B77213C71CBA42170040AD04 /* UINavigationBar+RGUICategory.m */,
+				B76A55B71CD1E26600DB016B /* UITabBar+RGUICategory.h */,
+				B76A55B81CD1E26600DB016B /* UITabBar+RGUICategory.m */,
 				B77213C91CBA448F0040AD04 /* UIView+RGUICategory.h */,
 				B77213CA1CBA448F0040AD04 /* UIView+RGUICategory.m */,
 				B7D29AAA1CBE3D40009A8553 /* MainScreen.h */,
@@ -185,6 +190,7 @@
 				B77213AD1CBA0F020040AD04 /* AppDelegate.m in Sources */,
 				B77213C81CBA42170040AD04 /* UINavigationBar+RGUICategory.m in Sources */,
 				B77213CB1CBA448F0040AD04 /* UIView+RGUICategory.m in Sources */,
+				B76A55B91CD1E26600DB016B /* UITabBar+RGUICategory.m in Sources */,
 				B77213C51CBA1DC70040AD04 /* UIColor+RGUICategory.m in Sources */,
 				B77213AA1CBA0F020040AD04 /* main.m in Sources */,
 				B7D29AAC1CBE3D40009A8553 /* MainScreen.m in Sources */,

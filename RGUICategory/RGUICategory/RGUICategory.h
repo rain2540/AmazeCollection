@@ -12,6 +12,7 @@
 #import "RGUIConstant.h"
 #import "UIColor+RGUICategory.h"
 #import "UINavigationBar+RGUICategory.h"
+#import "UITabBar+RGUICategory.h"
 #import "UIView+RGUICategory.h"
 #import "MainScreen.h"
 
