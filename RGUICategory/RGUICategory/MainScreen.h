@@ -18,6 +18,11 @@
 
 + (CGFloat)rg_height;
 
+/**
+ *  获取主屏幕的实体
+ *
+ *  @return 主屏幕实体
+ */
 + (UIScreen *)rg_mainScreen;
 
 @end
