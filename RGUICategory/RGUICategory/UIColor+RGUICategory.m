@@ -10,16 +10,6 @@
 
 @implementation UIColor (RGUICategory)
 
-- (UIColor *)rg_initWithRed:(CGFloat)red
-                      Green:(CGFloat)green
-                       Blue:(CGFloat)blue
-                      Alpha:(CGFloat)alpha
-{
-    return [self initWithRed:red / 255.0f
-                       green:green / 255.0f
-                        blue:blue / 255.0
-                       alpha:alpha];
-}
 
 + (UIColor *)rg_colorWithRed:(CGFloat)red
                        Green:(CGFloat)green
@@ -30,6 +20,24 @@
                                      Green:green
                                       Blue:blue
                                      Alpha:alpha];
+}
+
++ (UIColor *)rg_colorWithHexString:(nonnull NSString *)hexString
+                             alpha:(CGFloat)alpha
+{
+    return [[UIColor alloc] rg_initWithHexString:hexString alpha:alpha];
+}
+
+
+- (UIColor *)rg_initWithRed:(CGFloat)red
+                      Green:(CGFloat)green
+                       Blue:(CGFloat)blue
+                      Alpha:(CGFloat)alpha
+{
+    return [self initWithRed:red / 255.0f
+                       green:green / 255.0f
+                        blue:blue / 255.0
+                       alpha:alpha];
 }
 
 - (UIColor *)rg_initWithHexString:(nonnull NSString *)hexString
@@ -74,12 +82,6 @@
         }
     }
     return [self initWithRed:red green:green blue:blue alpha:alpha];
-}
-
-+ (UIColor *)rg_colorWithHexString:(nonnull NSString *)hexString
-                             alpha:(CGFloat)alpha
-{
-    return [[UIColor alloc] rg_initWithHexString:hexString alpha:alpha];
 }
 
 @end
