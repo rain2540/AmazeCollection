@@ -47,6 +47,11 @@ typedef enum {
 
 @interface UIView (Rect)
 
+/**
+ *  获得视图的大小
+ *
+ *  @return 视图的大小
+ */
 - (CGSize)rg_size;
 
 - (CGFloat)rg_width;
