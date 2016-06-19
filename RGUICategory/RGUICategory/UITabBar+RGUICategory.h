@@ -17,6 +17,11 @@
  */
 + (void)rg_barTintColor:(UIColor *)color;
 
+/**
+ *  修改 Tab Bar item 的 tint color
+ *
+ *  @param color 提供给 Tab Bar 的 tint color
+ */
 + (void)rg_tintColor:(UIColor *)color;
 
 @end
