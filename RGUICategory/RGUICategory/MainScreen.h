@@ -10,6 +10,11 @@
 
 @interface MainScreen : UIScreen
 
+/**
+ *  获取视图的 bounds
+ *
+ *  @return 视图的 bounds
+ */
 + (CGRect)rg_bouds;
 
 + (CGSize)rg_size;
