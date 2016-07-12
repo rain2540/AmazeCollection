@@ -17,6 +17,11 @@
  */
 + (CGRect)rg_bouds;
 
+/**
+ *  获取视图的 size
+ *
+ *  @return 视图的 size
+ */
 + (CGSize)rg_size;
 
 + (CGFloat)rg_width;
