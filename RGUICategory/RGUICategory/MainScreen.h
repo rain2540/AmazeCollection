@@ -24,6 +24,11 @@
  */
 + (CGSize)rg_size;
 
+/**
+ *  获取视图的宽
+ *
+ *  @return 视图的宽
+ */
 + (CGFloat)rg_width;
 
 + (CGFloat)rg_height;
