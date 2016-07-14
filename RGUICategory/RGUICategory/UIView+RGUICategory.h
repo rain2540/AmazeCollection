@@ -60,6 +60,12 @@ typedef enum {
  *  @return 视图的宽度
  */
 - (CGFloat)rg_width;
+
+/**
+ *  设置视图的宽度
+ *
+ *  @param width 视图的宽度
+ */
 - (void)rg_setWidth:(CGFloat)width;
 
 - (CGFloat)rg_height;
