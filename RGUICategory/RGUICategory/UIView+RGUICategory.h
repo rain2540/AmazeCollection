@@ -69,12 +69,19 @@ typedef enum {
  */
 - (void)rg_setWidth:(CGFloat)width;
 
+
 /**
  *  获得视图的高度
  *
  *  @return 视图的高度
  */
 - (CGFloat)rg_height;
+
+/**
+ *  设置视图的高度
+ *
+ *  @param height 视图的高度
+ */
 - (void)rg_setHeight:(CGFloat)height;
 
 - (CGFloat)rg_x;
