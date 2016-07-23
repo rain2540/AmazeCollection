@@ -84,6 +84,12 @@ typedef enum {
  */
 - (void)rg_setHeight:(CGFloat)height;
 
+
+/**
+ *  获得视图左上角的横坐标
+ *
+ *  @return 视图左上角的横坐标
+ */
 - (CGFloat)rg_x;
 - (void)rg_setX:(CGFloat)x;
 
