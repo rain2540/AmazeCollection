@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8C2CA4072F15C76E8144B94C /* Pods_AC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FFFB18AEA63114E48A68A9 /* Pods_AC.framework */; };
 		B7C9CF741F948E8C00578FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CF731F948E8C00578FCD /* AppDelegate.swift */; };
-		B7C9CF761F948E8C00578FCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CF751F948E8C00578FCD /* ViewController.swift */; };
 		B7C9CF791F948E8C00578FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C9CF771F948E8C00578FCD /* Main.storyboard */; };
 		B7C9CF7B1F948E8C00578FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C9CF7A1F948E8C00578FCD /* Assets.xcassets */; };
 		B7C9CF7E1F948E8C00578FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C9CF7C1F948E8C00578FCD /* LaunchScreen.storyboard */; };
@@ -26,6 +25,7 @@
 		B7C9CFAB1F94A74A00578FCD /* MHRefreshNormalFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C9CFA21F94A74A00578FCD /* MHRefreshNormalFooter.xib */; };
 		B7C9CFAC1F94A74A00578FCD /* MHRefreshNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CFA31F94A74A00578FCD /* MHRefreshNormalHeader.swift */; };
 		B7C9CFAD1F94A74A00578FCD /* MHRefreshNormalHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C9CFA41F94A74A00578FCD /* MHRefreshNormalHeader.xib */; };
+		B7C9CFB11F94ACB400578FCD /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CFB01F94ACB300578FCD /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,6 @@
 		7BD7490C9D289074913739D6 /* Pods-AC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AC/Pods-AC.debug.xcconfig"; sourceTree = "<group>"; };
 		B7C9CF701F948E8C00578FCD /* AC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C9CF731F948E8C00578FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7C9CF751F948E8C00578FCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7C9CF781F948E8C00578FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7C9CF7A1F948E8C00578FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7C9CF7D1F948E8C00578FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		B7C9CFA21F94A74A00578FCD /* MHRefreshNormalFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHRefreshNormalFooter.xib; sourceTree = "<group>"; };
 		B7C9CFA31F94A74A00578FCD /* MHRefreshNormalHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHRefreshNormalHeader.swift; sourceTree = "<group>"; };
 		B7C9CFA41F94A74A00578FCD /* MHRefreshNormalHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHRefreshNormalHeader.xib; sourceTree = "<group>"; };
+		B7C9CFB01F94ACB300578FCD /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				B7C9CF871F94A48400578FCD /* Application */,
-				B7C9CF751F948E8C00578FCD /* ViewController.swift */,
 				B7C9CF7A1F948E8C00578FCD /* Assets.xcassets */,
 				B7C9CF851F948ED100578FCD /* Supporting Files */,
 			);
@@ -160,6 +159,7 @@
 		B7C9CF8C1F94A53000578FCD /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				B7C9CFAE1F94A84D00578FCD /* Home */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -222,6 +222,22 @@
 				B7C9CFA41F94A74A00578FCD /* MHRefreshNormalHeader.xib */,
 			);
 			path = PullRefresh;
+			sourceTree = "<group>";
+		};
+		B7C9CFAE1F94A84D00578FCD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B7C9CFAF1F94A92F00578FCD /* Controllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B7C9CFAF1F94A92F00578FCD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7C9CFB01F94ACB300578FCD /* HomeTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		D314BBDD7708F6917645698D /* Pods */ = {
@@ -368,13 +384,13 @@
 			files = (
 				B7C9CF931F94A72C00578FCD /* MHVerticalADView.swift in Sources */,
 				B7C9CF921F94A72C00578FCD /* MHADScrollView.swift in Sources */,
-				B7C9CF761F948E8C00578FCD /* ViewController.swift in Sources */,
 				B7C9CFA71F94A74A00578FCD /* MHRefreshCommon.swift in Sources */,
 				B7C9CFA51F94A74A00578FCD /* MHRefresh.swift in Sources */,
 				B7C9CFA91F94A74A00578FCD /* MHRefreshHeader.swift in Sources */,
 				B7C9CF9A1F94A74200578FCD /* HMSegmentedControl.m in Sources */,
 				B7C9CFA61F94A74A00578FCD /* MHRefreshBase.swift in Sources */,
 				B7C9CF741F948E8C00578FCD /* AppDelegate.swift in Sources */,
+				B7C9CFB11F94ACB400578FCD /* HomeTableViewController.swift in Sources */,
 				B7C9CF961F94A73700578FCD /* MHAnimationHeartBtn.swift in Sources */,
 				B7C9CFAA1F94A74A00578FCD /* MHRefreshNormalFooter.swift in Sources */,
 				B7C9CFAC1F94A74A00578FCD /* MHRefreshNormalHeader.swift in Sources */,
