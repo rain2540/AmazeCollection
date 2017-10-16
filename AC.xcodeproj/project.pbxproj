@@ -13,6 +13,19 @@
 		B7C9CF791F948E8C00578FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C9CF771F948E8C00578FCD /* Main.storyboard */; };
 		B7C9CF7B1F948E8C00578FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C9CF7A1F948E8C00578FCD /* Assets.xcassets */; };
 		B7C9CF7E1F948E8C00578FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C9CF7C1F948E8C00578FCD /* LaunchScreen.storyboard */; };
+		B7C9CF921F94A72C00578FCD /* MHADScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CF901F94A72C00578FCD /* MHADScrollView.swift */; };
+		B7C9CF931F94A72C00578FCD /* MHVerticalADView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CF911F94A72C00578FCD /* MHVerticalADView.swift */; };
+		B7C9CF961F94A73700578FCD /* MHAnimationHeartBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CF951F94A73700578FCD /* MHAnimationHeartBtn.swift */; };
+		B7C9CF9A1F94A74200578FCD /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CF991F94A74200578FCD /* HMSegmentedControl.m */; };
+		B7C9CFA51F94A74A00578FCD /* MHRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CF9C1F94A74A00578FCD /* MHRefresh.swift */; };
+		B7C9CFA61F94A74A00578FCD /* MHRefreshBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CF9D1F94A74A00578FCD /* MHRefreshBase.swift */; };
+		B7C9CFA71F94A74A00578FCD /* MHRefreshCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CF9E1F94A74A00578FCD /* MHRefreshCommon.swift */; };
+		B7C9CFA81F94A74A00578FCD /* MHRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CF9F1F94A74A00578FCD /* MHRefreshFooter.swift */; };
+		B7C9CFA91F94A74A00578FCD /* MHRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CFA01F94A74A00578FCD /* MHRefreshHeader.swift */; };
+		B7C9CFAA1F94A74A00578FCD /* MHRefreshNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CFA11F94A74A00578FCD /* MHRefreshNormalFooter.swift */; };
+		B7C9CFAB1F94A74A00578FCD /* MHRefreshNormalFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C9CFA21F94A74A00578FCD /* MHRefreshNormalFooter.xib */; };
+		B7C9CFAC1F94A74A00578FCD /* MHRefreshNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C9CFA31F94A74A00578FCD /* MHRefreshNormalHeader.swift */; };
+		B7C9CFAD1F94A74A00578FCD /* MHRefreshNormalHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C9CFA41F94A74A00578FCD /* MHRefreshNormalHeader.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,20 @@
 		B7C9CF7A1F948E8C00578FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7C9CF7D1F948E8C00578FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7C9CF7F1F948E8C00578FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C9CF901F94A72C00578FCD /* MHADScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHADScrollView.swift; sourceTree = "<group>"; };
+		B7C9CF911F94A72C00578FCD /* MHVerticalADView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHVerticalADView.swift; sourceTree = "<group>"; };
+		B7C9CF951F94A73700578FCD /* MHAnimationHeartBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHAnimationHeartBtn.swift; sourceTree = "<group>"; };
+		B7C9CF981F94A74200578FCD /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		B7C9CF991F94A74200578FCD /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		B7C9CF9C1F94A74A00578FCD /* MHRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHRefresh.swift; sourceTree = "<group>"; };
+		B7C9CF9D1F94A74A00578FCD /* MHRefreshBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHRefreshBase.swift; sourceTree = "<group>"; };
+		B7C9CF9E1F94A74A00578FCD /* MHRefreshCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHRefreshCommon.swift; sourceTree = "<group>"; };
+		B7C9CF9F1F94A74A00578FCD /* MHRefreshFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHRefreshFooter.swift; sourceTree = "<group>"; };
+		B7C9CFA01F94A74A00578FCD /* MHRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHRefreshHeader.swift; sourceTree = "<group>"; };
+		B7C9CFA11F94A74A00578FCD /* MHRefreshNormalFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHRefreshNormalFooter.swift; sourceTree = "<group>"; };
+		B7C9CFA21F94A74A00578FCD /* MHRefreshNormalFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHRefreshNormalFooter.xib; sourceTree = "<group>"; };
+		B7C9CFA31F94A74A00578FCD /* MHRefreshNormalHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHRefreshNormalHeader.swift; sourceTree = "<group>"; };
+		B7C9CFA41F94A74A00578FCD /* MHRefreshNormalHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHRefreshNormalHeader.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +96,7 @@
 		B7C9CF721F948E8C00578FCD /* AC */ = {
 			isa = PBXGroup;
 			children = (
-				B7C9CF731F948E8C00578FCD /* AppDelegate.swift */,
+				B7C9CF871F94A48400578FCD /* Application */,
 				B7C9CF751F948E8C00578FCD /* ViewController.swift */,
 				B7C9CF7A1F948E8C00578FCD /* Assets.xcassets */,
 				B7C9CF851F948ED100578FCD /* Supporting Files */,
@@ -85,6 +112,116 @@
 				B7C9CF7F1F948E8C00578FCD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7C9CF871F94A48400578FCD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B7C9CF881F94A4AF00578FCD /* AppDelegate */,
+				B7C9CF8B1F94A51800578FCD /* Managers */,
+				B7C9CF8C1F94A53000578FCD /* Modules */,
+				B7C9CF8D1F94A54500578FCD /* Utils */,
+				B7C9CF8E1F94A55100578FCD /* Vendors */,
+				B7C9CF8A1F94A4EF00578FCD /* Define */,
+				B7C9CF891F94A4D400578FCD /* Base */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B7C9CF881F94A4AF00578FCD /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B7C9CF731F948E8C00578FCD /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B7C9CF891F94A4D400578FCD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B7C9CF8A1F94A4EF00578FCD /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		B7C9CF8B1F94A51800578FCD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B7C9CF8C1F94A53000578FCD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B7C9CF8D1F94A54500578FCD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B7C9CF8E1F94A55100578FCD /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				B7C9CF8F1F94A72C00578FCD /* ADScrollView */,
+				B7C9CF941F94A73700578FCD /* HeartAnimationBtn */,
+				B7C9CF971F94A74200578FCD /* HMSegmentedControl */,
+				B7C9CF9B1F94A74A00578FCD /* PullRefresh */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		B7C9CF8F1F94A72C00578FCD /* ADScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B7C9CF901F94A72C00578FCD /* MHADScrollView.swift */,
+				B7C9CF911F94A72C00578FCD /* MHVerticalADView.swift */,
+			);
+			path = ADScrollView;
+			sourceTree = "<group>";
+		};
+		B7C9CF941F94A73700578FCD /* HeartAnimationBtn */ = {
+			isa = PBXGroup;
+			children = (
+				B7C9CF951F94A73700578FCD /* MHAnimationHeartBtn.swift */,
+			);
+			path = HeartAnimationBtn;
+			sourceTree = "<group>";
+		};
+		B7C9CF971F94A74200578FCD /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				B7C9CF981F94A74200578FCD /* HMSegmentedControl.h */,
+				B7C9CF991F94A74200578FCD /* HMSegmentedControl.m */,
+			);
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		B7C9CF9B1F94A74A00578FCD /* PullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				B7C9CF9C1F94A74A00578FCD /* MHRefresh.swift */,
+				B7C9CF9D1F94A74A00578FCD /* MHRefreshBase.swift */,
+				B7C9CF9E1F94A74A00578FCD /* MHRefreshCommon.swift */,
+				B7C9CF9F1F94A74A00578FCD /* MHRefreshFooter.swift */,
+				B7C9CFA01F94A74A00578FCD /* MHRefreshHeader.swift */,
+				B7C9CFA11F94A74A00578FCD /* MHRefreshNormalFooter.swift */,
+				B7C9CFA21F94A74A00578FCD /* MHRefreshNormalFooter.xib */,
+				B7C9CFA31F94A74A00578FCD /* MHRefreshNormalHeader.swift */,
+				B7C9CFA41F94A74A00578FCD /* MHRefreshNormalHeader.xib */,
+			);
+			path = PullRefresh;
 			sourceTree = "<group>";
 		};
 		D314BBDD7708F6917645698D /* Pods */ = {
@@ -160,6 +297,8 @@
 			files = (
 				B7C9CF7E1F948E8C00578FCD /* LaunchScreen.storyboard in Resources */,
 				B7C9CF7B1F948E8C00578FCD /* Assets.xcassets in Resources */,
+				B7C9CFAD1F94A74A00578FCD /* MHRefreshNormalHeader.xib in Resources */,
+				B7C9CFAB1F94A74A00578FCD /* MHRefreshNormalFooter.xib in Resources */,
 				B7C9CF791F948E8C00578FCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,8 +366,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C9CF931F94A72C00578FCD /* MHVerticalADView.swift in Sources */,
+				B7C9CF921F94A72C00578FCD /* MHADScrollView.swift in Sources */,
 				B7C9CF761F948E8C00578FCD /* ViewController.swift in Sources */,
+				B7C9CFA71F94A74A00578FCD /* MHRefreshCommon.swift in Sources */,
+				B7C9CFA51F94A74A00578FCD /* MHRefresh.swift in Sources */,
+				B7C9CFA91F94A74A00578FCD /* MHRefreshHeader.swift in Sources */,
+				B7C9CF9A1F94A74200578FCD /* HMSegmentedControl.m in Sources */,
+				B7C9CFA61F94A74A00578FCD /* MHRefreshBase.swift in Sources */,
 				B7C9CF741F948E8C00578FCD /* AppDelegate.swift in Sources */,
+				B7C9CF961F94A73700578FCD /* MHAnimationHeartBtn.swift in Sources */,
+				B7C9CFAA1F94A74A00578FCD /* MHRefreshNormalFooter.swift in Sources */,
+				B7C9CFAC1F94A74A00578FCD /* MHRefreshNormalHeader.swift in Sources */,
+				B7C9CFA81F94A74A00578FCD /* MHRefreshFooter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
