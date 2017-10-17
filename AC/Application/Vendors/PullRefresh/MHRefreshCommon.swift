@@ -6,8 +6,10 @@
 //  Copyright © 2016年 韩威. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
+let SCREEN_WIDTH = UIScreen.main.bounds.size.width
+let SCREEN_HEIGHT = UIScreen.main.bounds.size.height
 
 let MHRefreshHeaderX = 0.0
 let MHRefreshHeaderY = -40.0

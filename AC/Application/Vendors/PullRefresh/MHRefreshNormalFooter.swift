@@ -106,7 +106,7 @@ class MHRefreshNormalFooter: MHRefreshFooter {
     private func getLabelSize() -> CGSize {
         let content = NSString.init(string: self.stateLabel.text!)
         let size = CGSize.init(width: 1000, height: 1000)
-        let rect = content.boundingRect(with: size, options: [.usesLineFragmentOrigin,], attributes: [NSFontAttributeName : UIFont.systemFont(ofSize: 15)], context: nil)
+        let rect = content.boundingRect(with: size, options: [.usesLineFragmentOrigin,], attributes: [NSAttributedStringKey.font : UIFont.systemFont(ofSize: 15)], context: nil)
         return rect.size
     }
 }
