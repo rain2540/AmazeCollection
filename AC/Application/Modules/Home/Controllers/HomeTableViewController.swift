@@ -10,6 +10,8 @@ import UIKit
 
 class HomeTableViewController: UITableViewController {
 
+    static var isNeedReloadCountDown: Bool = false
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,9 +26,10 @@ class HomeTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+}
 
-    // MARK: - Table view data source
-
+// MARK: - Table view data source
+extension HomeTableViewController {
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 0
@@ -63,7 +66,7 @@ class HomeTableViewController: UITableViewController {
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+        }
     }
     */
 
